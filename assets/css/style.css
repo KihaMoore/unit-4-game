@@ -6,22 +6,39 @@ body{
 
 
 h1{
-    font-family: 'Alegreya Sans SC', sans-serif;
-    font-size:85px;
+    font-size:90px;
     text-align:center;
-    padding-bottom:100px;
-    padding-top:80px;
-    letter-spacing: 0.2em;
+    padding-bottom:1px;
+    padding-top:100px;
+    letter-spacing: 0.3em;
+    
 }
 
 p{
+    text-align: center;
+    padding:0 50px;
+    font-size:13px;
+    letter-spacing: 0.2em;
+    padding-top:20px;
+    color:grey;
+}
+
+#randomNumber{
     text-align:center;
-    padding-bottom:50px;
+    padding-top:60px;
     font-size:25px;
-    letter-spacing: 0.09em;
+    letter-spacing: 0.2em;
     color:rgb(231, 114, 168);
 }
 
+#totalScore{
+    text-align:center;
+    padding-top:50px;
+    font-size:25px;
+    letter-spacing: 0.2em;
+    color:rgb(231, 114, 168);
+
+}
 
 .crystals{
     display: flex;
@@ -40,17 +57,21 @@ p{
 #win{
     float:left;
     padding-left:500px;
-    margin-top:80px;
+    margin-top:1px;
     font-size:25px;
     letter-spacing: 0.09em;
+    color:grey;
+    
 }
 
 #lost{
     float:right;
-    padding-right:550px;
-    margin-top:80px;
+    padding-right:500px;
+    margin-top:1px;
     font-size:25px;
     letter-spacing: 0.09em;
+    color:grey;
+    
 }
 
 img{
@@ -63,11 +84,13 @@ img{
     animation: kirakira 8s linear;
     color:goldenrod;
     display: inline-block;
-    height: 0.5em;
-    line-height: 0.5em;
+    height: 0.3em;
+    line-height: 0.3em;
     position: fixed;
     top: -1em;
     z-index: 1000;
+    opacity: 0.6;
+    
 }
 
 @keyframes kirakira {

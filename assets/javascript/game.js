@@ -15,6 +15,9 @@ var resetAndStart = function () {
         'http://chittagongit.com/images/crystal-icon/crystal-icon-28.jpg'
     ]
 
+    
+
+
     random_number = Math.floor(Math.random() * 80) + 40;
 
 
@@ -92,7 +95,7 @@ function starSet(clone) {
     //星の位置（left）、アニメーションの遅延時間（animation-delay）、サイズ（font-size）をランダムで指定
     starStyle.left = 100 * Math.random() + "%";
     starStyle.animationDelay = 8 * Math.random() + "s";
-    starStyle.fontSize = ~~(50 * Math.random() + 20) + "px";
+    starStyle.fontSize = ~~(20 * Math.random() + 20) + "px";
     document.body.appendChild(starClone);
 
     //星一つのアニメーションが終わったら新しい星を生成
