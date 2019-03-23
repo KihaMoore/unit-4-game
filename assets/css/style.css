@@ -1,0 +1,82 @@
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    background-color: pink;
+}
+
+
+h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size:85px;
+    text-align:center;
+    padding-bottom:100px;
+    padding-top:80px;
+    letter-spacing: 0.2em;
+}
+
+p{
+    text-align:center;
+    padding-bottom:50px;
+    font-size:25px;
+    letter-spacing: 0.09em;
+    color:rgb(231, 114, 168);
+}
+
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crystal{
+    
+    display: inline-block;
+    height:200px;
+    width:220px;
+   
+}
+
+#win{
+    float:left;
+    padding-left:500px;
+    margin-top:80px;
+    font-size:25px;
+    letter-spacing: 0.09em;
+}
+
+#lost{
+    float:right;
+    padding-right:550px;
+    margin-top:80px;
+    font-size:25px;
+    letter-spacing: 0.09em;
+}
+
+img{
+    max-width: 220px;
+   height: auto;
+   
+}
+
+.star {
+    animation: kirakira 8s linear;
+    color:goldenrod;
+    display: inline-block;
+    height: 0.5em;
+    line-height: 0.5em;
+    position: fixed;
+    top: -1em;
+    z-index: 1000;
+}
+
+@keyframes kirakira {
+    0% {
+        transform:translateY(0) rotateY(0);
+    }
+    100% {
+        transform:translateY(calc(100vh + 1em)) rotateY(3600deg);
+    }
+}
+
+
